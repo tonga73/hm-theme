@@ -32,7 +32,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
-		<nav class="navbar navbar-expand-md navbar-dark bg-navbar">
+		<nav class="navbar navbar-expand-lg navbar-dark">
 
 		<?php if ( 'container' == $container ) : ?>
 			<div class="container-fluid" >
@@ -47,7 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							
 						<?php else : ?>
 
-							<a class="navbar-brand text-main logo p-0 m-0" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
+							<a class="navbar-brand m-0 text-main" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
 						
 						<?php endif; ?>
 						
@@ -66,7 +66,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'theme_location'  => 'primary',
 						'container_class' => 'collapse navbar-collapse',
 						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav',
+						'menu_class'      => 'navbar-nav ml-auto',
 						'fallback_cb'     => '',
 						'menu_id'         => 'main-menu',
 						'walker'          => new understrap_WP_Bootstrap_Navwalker(),

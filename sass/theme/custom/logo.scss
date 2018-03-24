@@ -1,5 +1,18 @@
-.logo {
+.navbar-brand {
 	font-size: 3rem;
-	font-family: 'Cinzel', serif;
+	font-family: 'Cinzel', serif !important;
 	letter-spacing: 5px;
+	font-weight: bold;
+	color: $cc-main !important;
+}
+@media (max-width: 526px) {
+    .navbar-brand {
+    	font-size: 1.9rem;
+    	display: block;
+    	width: 100%;
+    	text-align: center;
+    }
+    button.navbar-toggler {
+    	margin: auto;
+    }
 }

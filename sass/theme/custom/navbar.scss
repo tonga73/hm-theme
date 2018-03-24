@@ -1,0 +1,19 @@
+.wrapper-navbar {
+	nav.navbar {
+		a.navbar-brand {}
+		ul.navbar-nav {
+			li.menu-item {
+				text-align:center;
+				&:hover {
+					background-color: $cc-dgreen;
+				}
+				a.nav-link {
+					
+				}
+			}
+			li.menu-item.active {
+				background-color: $cc-dgreen !important;
+			}
+		}
+	}
+}

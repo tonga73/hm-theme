@@ -10,7 +10,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Bellefair|Cinzel+Decorative:400,700,900|Cinzel:400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Barlow:100,100i,300,300i,500,500i,700,700i,900,900i|Bellefair|Cinzel+Decorative:400|Cinzel:400,700,900");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -36,7 +36,7 @@
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
+  --breakpoint-lg: 1034px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: "Cinzel", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
@@ -473,7 +473,7 @@ pre {
   @media (min-width: 768px) {
     .container {
       max-width: 720px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1034px) {
     .container {
       max-width: 960px; } }
   @media (min-width: 1200px) {
@@ -1029,7 +1029,7 @@ pre {
   .offset-md-11 {
     margin-left: 91.66667%; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1034px) {
   .col-lg {
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -1527,7 +1527,7 @@ pre {
     .table-responsive-md > .table-bordered {
       border: 0; } }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1033.98px) {
   .table-responsive-lg {
     display: block;
     width: 100%;
@@ -4340,13 +4340,13 @@ tbody.collapse.show {
       top: auto;
       bottom: 100%; } }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1033.98px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1034px) {
   .navbar-expand-lg {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -5398,7 +5398,7 @@ button.close {
   .modal-sm {
     max-width: 300px; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1034px) {
   .modal-lg {
     max-width: 800px; } }
 
@@ -6033,7 +6033,7 @@ button.bg-dark:focus {
     display: -ms-inline-flexbox !important;
     display: inline-flex !important; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1034px) {
   .d-lg-none {
     display: none !important; }
   .d-lg-inline {
@@ -6484,7 +6484,7 @@ button.bg-dark:focus {
     -ms-flex-item-align: stretch !important;
         align-self: stretch !important; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1034px) {
   .flex-lg-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
@@ -6721,7 +6721,7 @@ button.bg-dark:focus {
   .float-md-none {
     float: none !important; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1034px) {
   .float-lg-left {
     float: left !important; }
   .float-lg-right {
@@ -7441,7 +7441,7 @@ button.bg-dark:focus {
   .mx-md-auto {
     margin-left: auto !important; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1034px) {
   .m-lg-0 {
     margin: 0 !important; }
   .mt-lg-0,
@@ -7845,7 +7845,7 @@ button.bg-dark:focus {
   .text-md-center {
     text-align: center !important; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1034px) {
   .text-lg-left {
     text-align: left !important; }
   .text-lg-right {
@@ -7982,9 +7982,9 @@ a.text-dark:hover, a.text-dark:focus {
   @page {
     size: a3; }
   body {
-    min-width: 992px !important; }
+    min-width: 1034px !important; }
   .container {
-    min-width: 992px !important; }
+    min-width: 1034px !important; }
   .navbar {
     display: none; }
   .badge {
@@ -8094,75 +8094,72 @@ a.skip-link {
   .navbar-dark .navbar-brand a:hover, .navbar-dark .navbar-brand a:focus {
     color: #fff; }
 
-@media (min-width: 768px) {
-  /* show 3 items */
-  .carousel-inner .active,
-  .carousel-inner .active + .carousel-item,
-  .carousel-inner .active + .carousel-item + .carousel-item,
-  .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
-    display: block; }
-  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
-  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
-  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
-    -webkit-transition: none;
-    transition: none; }
-  .carousel-inner .carousel-item-next,
-  .carousel-inner .carousel-item-prev {
-    position: relative;
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0); }
-  .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-    position: absolute;
-    top: 0;
-    right: -25%;
-    z-index: -1;
-    display: block;
-    visibility: visible; }
-  /* left or forward direction */
-  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
-  .carousel-item-next.carousel-item-left + .carousel-item,
-  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
-  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
-  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-    position: relative;
-    -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0);
-    visibility: visible; }
-  /* farthest right hidden item must be abso position for animations */
-  .carousel-inner .carousel-item-prev.carousel-item-right {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    display: block;
-    visibility: visible; }
-  /* right or prev direction */
-  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
-  .carousel-item-prev.carousel-item-right + .carousel-item,
-  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
-  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
-  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-    position: relative;
-    -webkit-transform: translate3d(100%, 0, 0);
-            transform: translate3d(100%, 0, 0);
-    visibility: visible;
-    display: block;
-    visibility: visible; } }
+.accordion button {
+  display: block; }
 
+/**
+ * COLORS
+ */
+/* General */
 .text-main {
   color: #b0532c !important; }
 
 .bg-main {
   background-color: #b0532c; }
 
+.bg-dark {
+  background-color: #201f1d !important; }
+
+/* Buttons */
+.btn-main {
+  background-color: #b0532c !important;
+  color: #fffeec !important; }
+  .btn-main:hover {
+    background-color: #d47a54 !important; }
+
+.btn-outline-main {
+  background-color: transparent !important;
+  color: #201f1d !important;
+  border: 1px solid #b0532c; }
+  .btn-outline-main:hover {
+    background-color: #b0532c !important;
+    color: #fffeec !important; }
+
+.btn-secondary {
+  background-color: #7d5545 !important; }
+  .btn-secondary:hover {
+    background-color: #aa7865 !important; }
+
+/* Navbar */
 .bg-navbar {
   background-color: #4a3030; }
 
-.logo {
+.navbar-brand {
   font-size: 3rem;
-  font-family: 'Cinzel', serif;
-  letter-spacing: 5px; }
+  font-family: 'Cinzel', serif !important;
+  letter-spacing: 5px;
+  font-weight: bold;
+  color: #b0532c !important; }
+
+@media (max-width: 526px) {
+  .navbar-brand {
+    font-size: 1.9rem;
+    display: block;
+    width: 100%;
+    text-align: center; }
+  button.navbar-toggler {
+    margin: auto; } }
+
+.wrapper-navbar nav.navbar ul.navbar-nav li.menu-item {
+  text-align: center; }
+  .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item:hover {
+    background-color: #4e574e; }
+
+.wrapper-navbar nav.navbar ul.navbar-nav li.menu-item.active {
+  background-color: #4e574e !important; }
+
+#narrativa-wrapper ul {
+  list-style: none; }
 
 /*
 * Use existing Bootstrap 4 classes and

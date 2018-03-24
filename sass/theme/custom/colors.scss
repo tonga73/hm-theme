@@ -1,12 +1,42 @@
+/**
+ * COLORS
+ */
+/* General */
 // Text Custom Colors
 .text-main {
 	color: $cc-main !important;
 }
-
 // Background Custom Colors
 .bg-main {
 	background-color: $cc-main;
 }
+.bg-dark {
+	background-color: $dark !important;
+}
+/* Buttons */
+.btn-main {
+	background-color: $cc-main !important;
+	color: $cream !important;
+	&:hover {
+		background-color: lighten($cc-main, 15%) !important;
+	}
+}
+.btn-outline-main {
+	background-color: transparent !important;
+	color: $dark !important;
+	border: 1px solid $cc-main;
+	&:hover {
+		background-color: $cc-main !important;
+		color: $cream !important;
+	}
+}
+.btn-secondary {
+	background-color: $cc-secondary !important;
+	&:hover {
+		background-color: lighten($cc-secondary, 15%) !important;
+	}
+}
+/* Navbar */
 .bg-navbar {
 	background-color: $navbar-bg;
 }

@@ -30,6 +30,10 @@ $black:#000000;
 $body-bg:                   $dark !default;
 $body-color:                $cream !default;
 
+// Logo
+
+$logo-color: $cc-main;
+
 // Links
 //
 // Style anchor elements.
@@ -48,9 +52,9 @@ $grid-breakpoints: (
   xs: 0,
   sm: 576px,
   md: 768px,
-  lg: 992px,
+  lg: 1034px,
   xl: 1200px
-) !default;
+);
 
 // Grid containers
 //
