@@ -8104,13 +8104,42 @@ a.skip-link {
 .text-main {
   color: #b0532c !important; }
 
+.text-lgray {
+  color: #a5a5a4; }
+
+.bg-ccprimary {
+  background-color: #4a3030; }
+
+.bg-ccsecondary {
+  background-color: #7d5545; }
+
 .bg-main {
   background-color: #b0532c; }
+
+.bg-green {
+  background-color: #587d45; }
+
+.bg-dgreen {
+  background-color: #4e574e; }
 
 .bg-dark {
   background-color: #201f1d !important; }
 
-/* Buttons */
+/* Custom Buttons */
+.btn, .wpcf7 input[type=submit] {
+  border-radius: 3px; }
+
+.btn-ccprimary {
+  background-color: #4a3030 !important;
+  color: #fffeec !important; }
+  .btn-ccprimary:hover {
+    background-color: #784e4e !important; }
+
+.btn-ccsecondary {
+  background-color: #7d5545 !important; }
+  .btn-ccsecondary:hover {
+    background-color: #aa7865 !important; }
+
 .btn-main {
   background-color: #b0532c !important;
   color: #fffeec !important; }
@@ -8125,10 +8154,19 @@ a.skip-link {
     background-color: #b0532c !important;
     color: #fffeec !important; }
 
-.btn-secondary {
-  background-color: #7d5545 !important; }
-  .btn-secondary:hover {
-    background-color: #aa7865 !important; }
+.btn-green-dgreen {
+  background-color: #587d45;
+  color: #fffeec !important; }
+  .btn-green-dgreen:hover {
+    background-color: #4e574e !important; }
+
+.btn-outline-narrativa {
+  background-color: transparent !important;
+  color: #fffeec !important;
+  border: 1px solid #7d5545; }
+  .btn-outline-narrativa:hover {
+    background-color: #7d5545 !important;
+    color: #fffeec !important; }
 
 /* Navbar */
 .bg-navbar {
@@ -8139,7 +8177,9 @@ a.skip-link {
   font-family: 'Cinzel', serif !important;
   letter-spacing: 5px;
   font-weight: bold;
-  color: #b0532c !important; }
+  color: #b0532c !important;
+  line-height: 200%;
+  padding: 3.5rem; }
 
 @media (max-width: 526px) {
   .navbar-brand {
@@ -8150,16 +8190,65 @@ a.skip-link {
   button.navbar-toggler {
     margin: auto; } }
 
+@media (max-width: 1092px) {
+  .navbar-brand {
+    font-size: 2.5rem; } }
+
 .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item {
-  text-align: center; }
+  text-align: center;
+  margin-left: 5px; }
   .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item:hover {
     background-color: #4e574e; }
 
 .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item.active {
   background-color: #4e574e !important; }
 
-#narrativa-wrapper ul {
+#narrativa-wrapper .container-fluid .jumbotron h2 {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1.5rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: rgba(255, 254, 236, 0.9);
+  background-color: rgba(32, 31, 29, 0.6);
+  height: 100%; }
+
+#narrativa-wrapper .container-fluid ul {
   list-style: none; }
+
+#narrativa-wrapper .container-fluid .card {
+  margin: 1.5rem;
+  background-color: transparent; }
+  #narrativa-wrapper .container-fluid .card .card-header {
+    color: #fff; }
+    #narrativa-wrapper .container-fluid .card .card-header h5 button {
+      letter-spacing: 2px; }
+  #narrativa-wrapper .container-fluid .card .card-body .panel {
+    color: #201f1d; }
+    #narrativa-wrapper .container-fluid .card .card-body .panel .list-group {
+      margin-bottom: 1.5rem; }
+      #narrativa-wrapper .container-fluid .card .card-body .panel .list-group .list-group-item {
+        background-color: #fffeec;
+        padding: 1.5rem; }
+
+#section1 {
+  background: url(http://devhm.com/wp-content/uploads/2018/03/libros-1250x970.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: baseline;
+  height: 23vh;
+  /* 100% of viewport height */
+  margin: 0 auto;
+  position: relative; }
 
 /*
 * Use existing Bootstrap 4 classes and

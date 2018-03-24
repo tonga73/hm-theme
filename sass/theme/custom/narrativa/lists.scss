@@ -1,6 +1,48 @@
 #narrativa-wrapper {
-	ul {
-		list-style: none;
+	.container-fluid {
+		.jumbotron {
+			h2 {
+				text-align: left;
+				display: flex;
+				justify-content: flex-start;
+				align-items:center;
+				padding: 0 1.5rem;
+				font-weight: 600;
+				letter-spacing: 3px;
+				color: rgba($cream, 0.9);
+				background-color: rgba($dark, 0.6);
+				height: 100%;
+			}
+		}
+		ul {
+			list-style: none;
+			
+		}
+		.card {
+			margin: 1.5rem;
+			background-color: transparent;
+			.card-header {
+				color: $white;
+				h5 {
+					button {
+						letter-spacing: 2px;
+					}
+				}
+			}
+			.card-body {
+				.panel {
+					color: $dark;
+					.panel-heading {}
+					.list-group {
+						margin-bottom: 1.5rem;
+						.list-group-item {
+							background-color: $cream;
+							padding: 1.5rem;
+						}
+					}
+				}
+			}
+		}
 		
 	}
 }

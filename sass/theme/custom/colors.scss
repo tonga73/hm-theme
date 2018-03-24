@@ -6,14 +6,54 @@
 .text-main {
 	color: $cc-main !important;
 }
+.text-lgray {
+	color: $gray-light;
+}
 // Background Custom Colors
+// Primary
+.bg-ccprimary {
+	background-color: $cc-primary;
+}
+// Secondary
+.bg-ccsecondary {
+	background-color: $cc-secondary;
+}
+// Main
 .bg-main {
 	background-color: $cc-main;
 }
+// Green
+.bg-green {
+	background-color: $cc-green;
+}
+// DGreen
+.bg-dgreen {
+	background-color: $cc-dgreen;
+}
+// Dark
 .bg-dark {
 	background-color: $dark !important;
 }
-/* Buttons */
+/* Custom Buttons */
+.btn {
+	border-radius: 3px;
+}
+// Primary
+.btn-ccprimary {
+	background-color: $cc-primary !important;
+	color: $cream !important;
+	&:hover {
+		background-color: lighten($cc-primary, 15%) !important;
+	}
+}
+// Secondary
+.btn-ccsecondary {
+	background-color: $cc-secondary !important;
+	&:hover {
+		background-color: lighten($cc-secondary, 15%) !important;
+	}
+}
+// Main
 .btn-main {
 	background-color: $cc-main !important;
 	color: $cream !important;
@@ -30,10 +70,22 @@
 		color: $cream !important;
 	}
 }
-.btn-secondary {
-	background-color: $cc-secondary !important;
+// Green with hover DGreen
+.btn-green-dgreen {
+	background-color: $cc-green;
+	color: $cream !important;
 	&:hover {
-		background-color: lighten($cc-secondary, 15%) !important;
+		background-color: $cc-dgreen !important;
+	}
+}
+// Narrativa
+.btn-outline-narrativa {
+	background-color: transparent !important;
+	color: $cream !important;
+	border:1px solid $cc-secondary;
+	&:hover {
+		background-color: $cc-secondary !important;
+		color: $cream !important;
 	}
 }
 /* Navbar */

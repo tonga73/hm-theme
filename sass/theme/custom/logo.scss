@@ -4,15 +4,22 @@
 	letter-spacing: 5px;
 	font-weight: bold;
 	color: $cc-main !important;
+    line-height: 200%;
+    padding:3.5rem;
 }
 @media (max-width: 526px) {
     .navbar-brand {
-    	font-size: 1.9rem;
-    	display: block;
-    	width: 100%;
-    	text-align: center;
+        font-size: 1.9rem;
+        display: block;
+        width: 100%;
+        text-align: center;
     }
     button.navbar-toggler {
-    	margin: auto;
+        margin: auto;
+    }
+}
+@media (max-width: 1092px) {
+    .navbar-brand {
+    	font-size: 2.5rem;
     }
 }

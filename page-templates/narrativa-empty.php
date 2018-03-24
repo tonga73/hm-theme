@@ -1,34 +1,33 @@
 <?php
 /**
- * Template Name: Narrativa
+ * Template Name: Narrativa (BETA - DEV)
  *
- * Template for displaying a page without sidebar even if a sidebar widget is published.
+ * Template for displaying a page just with the header and footer area and a "naked" content area in between.
+ * Good for landingpages and other types of pages where you want to add a lot of custom markup.
  *
  * @package understrap
  */
 
 get_header();
-$container = get_theme_mod( 'understrap_container_type' );
 ?>
-<div class="container-full">
 
-	<div class="col-sm-12 p-0">					
-		<!-- Section 1 -->
-		<section id="section1" data-speed="8" data-type="background">
-		    
-		</section>
-	</div>
-
-		<div class="wrapper bg-light" id="narrativa-wrapper">
+	
+		<div class="wrapper bg-ccprimary" id="narrativa-wrapper">
 
 			<div class="container-fluid" id="content">
 
 				<div class="row">
 
+					<div class="col-sm-12 p-0 jumbotron">					
+						<!-- Section 1 -->
+						<section id="section1" data-speed="8" data-type="background">
+						    <h2 class="">CUENTOS Y RELATOS</h2>
+						</section>
+					</div>
+
 					<!-- CUENTOS Y RELATOS -->
-					<div class="col-sm-12 col-md-6">
-						<h3 class="text-center">Cuentos y relatos</h3>
-						<hr class="bg-light">
+					<div class="col-sm-12 col-md-8 offset-md-2">
+						
 						<div id="accordion">
 							<!-- Terror | CUENTOS -->
 						  <div class="card">
@@ -57,7 +56,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								      </h5>
 								    </div>
 								    <div id="terrorListGroup1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="terrorListGroupHeading1">
-									<h6 class="panel-title p-0 text-center text-muted">
+									<h6 class="panel-title p-0 text-center text-lgray">
 										Lista de cuentos
 									</h6>
 								      <ul class="list-group">
@@ -93,7 +92,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 													</main><!-- #main -->
 											      </div>
 											      <div class="modal-footer">
-											        <button type="button" class="btn btn-outline-narrativa" data-dismiss="modal">Cerrar</button>
+											        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
 											      </div>
 											    </div>
 											  </div>
@@ -118,7 +117,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								      </h5>
 								    </div>
 								    <div id="terrorListGroup2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="terrorListGroupHeading2">
-									  <h6 class="panel-title p-0 text-center text-muted">
+									  <h6 class="panel-title p-0 text-center text-lgray">
 									 	Lista de cuentos
 									  </h6>
 								      <ul class="list-group">
@@ -150,14 +149,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 													</main><!-- #main -->
 											      </div>
 											      <div class="modal-footer">
-											        <button type="button" class="btn btn-outline-narrativa" data-dismiss="modal">Cerrar</button>
+											        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
 											      </div>
 											    </div>
 											  </div>
 											</div>
 											<!-- End Modal -->
 											
-								        <li class="list-group-item">Eduardo, el lobisón <span class="text-muted pull-right">(1ra parte)</span></li>
+								        <li class="list-group-item">Eduardo, el lobisón <span class="text-lgray pull-right">(1ra parte)</span></li>
 								        <li class="list-group-item">El fantasma de la panadería</li>
 								        <li class="list-group-item">El espantapájaros</li>
 								        <li class="list-group-item">La playa</li>
@@ -177,13 +176,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 								      </h5>
 								    </div>
 								    <div id="terrorListGroup3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="terrorListGroupHeading3">
-									  <h6 class="panel-title p-0 text-center text-muted">
+									  <h6 class="panel-title p-0 text-center text-lgray">
 									    Lista de cuentos
 								      </h6>
 								      <ul class="list-group">
 								        <li class="list-group-item">El extraño suceso de Elpidio Fleytas</li>
 								        <li class="list-group-item">Memorias de un niño cruel <small class="btn btn-sm btn-outline-main pull-right">Leer</small></li>
-								        <li class="list-group-item">Eduardo el lobisón <span class="text-muted pull-right">(2da parte)</span></li>
+								        <li class="list-group-item">Eduardo el lobisón <span class="text-lgray pull-right">(2da parte)</span></li>
 								        <li class="list-group-item">Luciano Vallejos el bailarín</li>
 								        <li class="list-group-item">Paraje Tres Ahorcados</li>
 								        <li class="list-group-item">El mounstruo del guarapo</li>
@@ -203,16 +202,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 								      </h5>
 								    </div>
 								    <div id="terrorListGroup4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="terrorListGroupHeading4">
-									  <h6 class="panel-title p-0 text-center text-muted">
+									  <h6 class="panel-title p-0 text-center text-lgray">
 									    Lista de cuentos
 								      </h6>
 								      <ul class="list-group">
-								        <li class="list-group-item">La bestia <span class="text-muted pull-right">(1ra parte)</span></li>
-								        <li class="list-group-item">Eduardo el lobisón <span class="text-muted pull-right">(3ra parte)</span></li>
+								        <li class="list-group-item">La bestia <span class="text-lgray pull-right">(1ra parte)</span></li>
+								        <li class="list-group-item">Eduardo el lobisón <span class="text-lgray pull-right">(3ra parte)</span></li>
 								        <li class="list-group-item">Estero cuatro diablos <small class="btn btn-sm btn-outline-main pull-right">Leer</small></li>
 								        <li class="list-group-item">Un extraño en la ventana</li>
 								        <li class="list-group-item">El ojeo</li>
-								        <li class="list-group-item">Crispín Soto y El Diablo <span class="text-muted pull-right">(1ra parte)</span></li>
+								        <li class="list-group-item">Crispín Soto y El Diablo <span class="text-lgray pull-right">(1ra parte)</span></li>
 								        <li class="list-group-item">Armas y Diablo</li>
 								        <li class="list-group-item">La Poseída</li>
 								        <li class="list-group-item">Una historia sobre el hombre del capote negro</li>
@@ -231,17 +230,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 								      </h5>
 								    </div>
 								    <div id="terrorListGroup5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="terrorListGroupHeading5">
-									  <h6 class="panel-title p-0 text-center text-muted">
+									  <h6 class="panel-title p-0 text-center text-lgray">
 									    Lista de cuentos
 								      </h6>
 								      <ul class="list-group">
-								        <li class="list-group-item">Mensajes del Más Allá <span class="text-muted pull-right">(1ra parte)</span></li>
+								        <li class="list-group-item">Mensajes del Más Allá <span class="text-lgray pull-right">(1ra parte)</span></li>
 								        <li class="list-group-item">El juego de la copa <small class="btn btn-sm btn-outline-main pull-right">Leer</small></li>
-								        <li class="list-group-item">Crispín Soto y El Diablo <span class="text-muted pull-right">(2da parte)</span></li>
+								        <li class="list-group-item">Crispín Soto y El Diablo <span class="text-lgray pull-right">(2da parte)</span></li>
 								        <li class="list-group-item">A la deriva</li>
-								        <li class="list-group-item">La bestia <span class="text-muted pull-right">(2da parte)</span></li>
+								        <li class="list-group-item">La bestia <span class="text-lgray pull-right">(2da parte)</span></li>
 								        <li class="list-group-item">La pieza de las víboras</li>
-								        <li class="list-group-item">Eduardo, el lobisón <span class="text-muted pull-right">(4ta parte - Final)</span></li>
+								        <li class="list-group-item">Eduardo, el lobisón <span class="text-lgray pull-right">(4ta parte - Final)</span></li>
 								        <li class="list-group-item">Domingo sangriento</li>
 								      </ul>
 								    </div>
@@ -258,15 +257,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 								      </h5>
 								    </div>
 								    <div id="terrorListGroup6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="terrorListGroupHeading6">
-									  <h6 class="panel-title p-0 text-center text-muted">
+									  <h6 class="panel-title p-0 text-center text-lgray">
 									    Lista de cuentos
 								      </h6>
 								      <ul class="list-group">
 								        <li class="list-group-item">Catalepsia</li>
-								        <li class="list-group-item">Mensajes del Más Allá <span class="text-muted pull-right">(2da parte)</span></li>
+								        <li class="list-group-item">Mensajes del Más Allá <span class="text-lgray pull-right">(2da parte)</span></li>
 								        <li class="list-group-item">Laguna El Palmar</li>
 								        <li class="list-group-item">El nido de la ñacaniná <small class="btn btn-sm btn-outline-main pull-right">Leer</small></li>
-								        <li class="list-group-item">Crispín Soto y El Diablo <span class="text-muted pull-right">(3ra parte)</span></li>
+								        <li class="list-group-item">Crispín Soto y El Diablo <span class="text-lgray pull-right">(3ra parte)</span></li>
 								        <li class="list-group-item">El destino del Sr. Sanabria</li>
 								        <li class="list-group-item">El Ectoplasma</li>
 								      </ul>
@@ -284,17 +283,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 								      </h5>
 								    </div>
 								    <div id="terrorListGroup7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="terrorListGroupHeading7">
-									  <h6 class="panel-title p-0 text-center text-muted">
+									  <h6 class="panel-title p-0 text-center text-lgray">
 									    Lista de cuentos
 								      </h6>
 								      <ul class="list-group">
 								        <li class="list-group-item">El ataúd <small class="btn btn-sm btn-outline-main pull-right">Leer</small></li>
-								        <li class="list-group-item">Mensajes del Más Allá <span class="text-muted pull-right">(3ra parte - Final)</span></li>
+								        <li class="list-group-item">Mensajes del Más Allá <span class="text-lgray pull-right">(3ra parte - Final)</span></li>
 								        <li class="list-group-item">El monte de las ánimas</li>
-								        <li class="list-group-item">La Bestia <span class="text-muted pull-right">(4ta parte)</span></li>
+								        <li class="list-group-item">La Bestia <span class="text-lgray pull-right">(4ta parte)</span></li>
 								        <li class="list-group-item">El velorio del hijo de doña Juana</li>
 								        <li class="list-group-item">Los hermanitos Ávalos</li>
-								        <li class="list-group-item">Crispín Soto y El Diablo <span class="text-muted pull-right">(4ta parte)</span></li>
+								        <li class="list-group-item">Crispín Soto y El Diablo <span class="text-lgray pull-right">(4ta parte)</span></li>
 								        <li class="list-group-item">El hombre (o el viejo) de la bolsa</li>
 								        <li class="list-group-item">La espera y la despedida</li>
 								      </ul>
@@ -312,7 +311,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								      </h5>
 								    </div>
 								    <div id="terrorListGroup8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="terrorListGroupHeading8">
-									  <h6 class="panel-title p-0 text-center text-muted">
+									  <h6 class="panel-title p-0 text-center text-lgray">
 									    Lista de cuentos
 								      </h6>
 								      <ul class="list-group">
@@ -392,7 +391,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="panel-group">
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h6 class="panel-title p-0 text-center text-muted">
+											<h6 class="panel-title p-0 text-center text-lgray">
 												Lista de cuentos
 											</h6>
 										</div>
@@ -462,7 +461,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="panel-group">
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h6 class="panel-title p-0 text-center text-muted">
+											<h6 class="panel-title p-0 text-center text-lgray">
 												Volumen I
 											</h6>
 										</div>
@@ -520,16 +519,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 						    <!-- Mundo Neurótico Lista -->
 						    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
 						      <div class="card-body">
-						      	<h5>Compendio <span class="text-muted pull-right">(inédito)</span></h5>
+						      	<h5>Ensayos <span class="text-lgray pull-right">(inédito)</span></h5>
 
 						      	<hr class="bg-secondary">
 								<div class="panel-group">
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h6 class="panel-title p-0 text-center text-muted">
-												Compendio (pseudo-ensayos y relatos) de conductas anómalas, interpretaciones disparatadas y ocurrencias poco serias que pretende explicar y sentar las bases de una retorcida teoría sobre la importancia de las neurosis.
-												<hr class="col-1 bg-secondary">
-												Ensayos
+											<h6 class="panel-title p-0 text-center text-lgray">
+												Compendio (pseudo-ensayos y relatos) de conductas anómalas, interpretaciones disparatadas y ocurrencias poco serias que pretende explicar y sentar las bases de una retorcida teoría sobre la importancia de las neurosis.	
 											</h6>
 										</div>
 										<ul class="list-group">
@@ -599,13 +596,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 						    <!-- Absurdo Lista -->
 						    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
 						      <div class="card-body">
-						      	<h5>Revelaciones <span class="text-muted pull-right">(inédito)</span></h5>
+						      	<h5>Revelaciones <span class="text-lgray pull-right">(inédito)</span></h5>
 
 						      	<hr class="bg-secondary">
 								<div class="panel-group">
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h6 class="panel-title p-0 text-center text-muted">
+											<h6 class="panel-title p-0 text-center text-lgray">
 												Lista de cuentos
 											</h6>
 										</div>
@@ -681,14 +678,20 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 						</div> <!-- Cuentos Accordion End -->
 
-						<hr class="col-2 bg-light">
+						
 
 					</div> <!-- Cuentos Column End -->
 
+					<div class="col-sm-12 p-0 jumbotron">					
+						<!-- Section 1 -->
+						<section id="section1" data-speed="8" data-type="background">
+						    <h2 class="">NOVELAS</h2>
+						</section>
+					</div>
+
 					<!-- NOVELAS -->
-					<div class="col-sm-12 col-md-6">
-						<h3 class="text-center">Novelas</h3>
-						<hr class="bg-light">
+					<div class="col-sm-12 col-md-8 offset-md-2">						
+						
 						<div id="accordion-novelas">
 						  <!-- Infanto-Juveniles | NOVELAS  -->
 						  <div class="card">
@@ -709,7 +712,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="panel-group">
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h6 class="panel-title p-0 text-center text-muted">
+											<h6 class="panel-title p-0 text-center text-lgray">
 												Capítulo I
 											</h6>
 										</div>
@@ -773,7 +776,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="panel-group">
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h6 class="panel-title p-0 text-center text-muted">
+											<h6 class="panel-title p-0 text-center text-lgray">
 												Contratapa
 											</h6>
 										</div>
@@ -783,7 +786,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 											</li>
 										</ul>
 										<div class="panel-heading">
-											<h6 class="panel-title p-0 pt-2 text-center text-muted">
+											<h6 class="panel-title p-0 pt-2 text-center text-lgray">
 												Capítulo I
 											</h6>
 										</div>
@@ -801,7 +804,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="panel-group">
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h6 class="panel-title p-0 text-center text-muted">
+											<h6 class="panel-title p-0 text-center text-lgray">
 												Capítulo I
 											</h6>
 										</div>
@@ -833,7 +836,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<div class="panel-group">
 									<div class="panel panel-default">
 										<div class="panel-heading">
-											<h6 class="panel-title p-0 text-center text-muted">
+											<h6 class="panel-title p-0 text-center text-lgray">
 												Capítulo I
 											</h6>
 										</div>
@@ -851,10 +854,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 						  </div>
 						</div> <!-- Novelas Accordion End -->
 
-						<hr class="col-2 bg-light">
+						
 
 					</div> <!-- Novelas Column End -->
 
+
+					<div class="col-sm-12 p-0 jumbotron">					
+						<!-- Section 1 -->
+						<section id="section1" data-speed="8" data-type="background">
+						    <h2 class=""> </h2>
+						</section>
+					</div>
 
 				</div><!-- .row end -->
 
@@ -862,13 +872,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		</div><!-- Wrapper end -->
 
-	<div class="col-sm-12">					
-		<!-- Section 1 -->
-		<section id="section1" data-speed="8" data-type="background">
-		    
-		</section>
-	</div>
 
-</div>
 
-<?php get_footer(); ?>
+
+<?php
+get_footer();
