@@ -8125,6 +8125,9 @@ a.skip-link {
 .bg-dark {
   background-color: #201f1d !important; }
 
+.bg-transparent {
+  background-color: transparent !important; }
+
 /* Custom Buttons */
 .btn, .wpcf7 input[type=submit] {
   border-radius: 3px; }
@@ -8170,7 +8173,7 @@ a.skip-link {
 
 /* Navbar */
 .bg-navbar {
-  background-color: #4a3030; }
+  background-color: #201f1d; }
 
 .navbar-brand {
   font-size: 3rem;
@@ -8194,14 +8197,41 @@ a.skip-link {
   .navbar-brand {
     font-size: 2.5rem; } }
 
-.wrapper-navbar nav.navbar ul.navbar-nav li.menu-item {
-  text-align: center;
-  margin-left: 5px; }
-  .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item:hover {
-    background-color: #4e574e; }
+.wrapper-navbar nav.navbar {
+  background-color: #201f1d; }
+  .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item {
+    text-align: center;
+    margin-left: 5px; }
+    .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item:hover {
+      background-color: #4e574e; }
+  .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item.active {
+    background-color: #4e574e !important; }
 
-.wrapper-navbar nav.navbar ul.navbar-nav li.menu-item.active {
-  background-color: #4e574e !important; }
+#inicio-page-wrapper .container-full .row #buttonCard a {
+  display: block; }
+  #inicio-page-wrapper .container-full .row #buttonCard a span {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    color: #fff; }
+  #inicio-page-wrapper .container-full .row #buttonCard a:hover {
+    background-color: #201f1d; }
+    #inicio-page-wrapper .container-full .row #buttonCard a:hover span {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      opacity: 1;
+      z-index: 10000; }
+    #inicio-page-wrapper .container-full .row #buttonCard a:hover img {
+      opacity: 0.6; }
 
 #narrativa-wrapper .container-fluid .jumbotron h2 {
   text-align: left;
