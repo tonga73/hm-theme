@@ -15,6 +15,7 @@ get_header();
 	<div class="container-full" id="content">
 
 		<div class="row no-gutters">
+      <!-- Main Frontpage Buttons -->
       <div id="buttonCard" class="col-sm-12 col-md-6 mt-3" >
         <a href="#" class="section-title m-auto">
           <h4 class="m-0">Lanzamientos</h4>          
@@ -39,63 +40,142 @@ get_header();
           <img src="http://devhm.com/wp-content/uploads/2018/03/pandorga-1250x590.png" alt="">
         </a>
       </div>
+      <!-- End Main Frontpage Buttons -->
 
-      <div class="col-sm-12 col-lg-8 offset-lg-2 mt-4">
-        <div id="jumboInicioFour"  class="jumbotron">
-          <h1 class="p-3 text-center">Criaturas celestes
-            <hr class="mt-4 mb-0 bg-secondary">
-            <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Ciencia Ficción&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver todas</span></a></small>
-            <button title="Comprar" class="btn btn-main pull-right ml-3"><i class="fas fa-shopping-cart"></i></button>
-            <button title="Me gusta" class="btn btn-main pull-right ml-3"><i class="fas fa-thumbs-up"></i></button>
-            <button title="Leer" class="btn btn-main btn pull-right ml-3"><i class="fas fa-file-alt"></i></button>
-          </h1>
+      <!-- Banners Frontpage -->
+      <div class="col-sm-12 col-lg-7 p-3">
+        <div class="row">
+          <div class="col-sm-12 mb-3">
+            <div id="jumboInicioFour"  class="jumbotron">
+              <div class="text-center h2">Criaturas celestes
+                <hr class="mt-4 mb-0 bg-secondary">
+                <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Ciencia Ficción&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver todas</span></a></small>
+              </div>
+              <div class="btn-group pull-right">
+                <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
+                <button type="button" title="Me gusta" class="btn btn-main ml-3"><i class="fas fa-thumbs-up"></i></button>
+                <button type="button" title="Leer" class="btn btn-main btn ml-3"><i class="fas fa-file-alt"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 mb-3">
+            <div id="jumboInicioFive"  class="jumbotron">
+              <div class="text-center h2">Mensajes del Más Allá
+                <hr class="mt-4 mb-0 bg-secondary">
+                <small class="d-block text-left"><a class="link-tipo" href="#">Novela</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Infanto-Juvenil&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver todas</span></a></small>
+              </div>
+              <div class="btn-group pull-right">
+                <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
+                <button type="button" title="Me gusta" class="btn btn-main ml-3"><i class="fas fa-thumbs-up"></i></button>
+                <button type="button" title="Leer" class="btn btn-main btn ml-3"><i class="fas fa-file-alt"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 mb-3">
+            <div id="jumboInicioTwo"  class="jumbotron">
+              <div class="text-center h2">Perdidos en la noche
+                <hr class="mt-4 mb-0 bg-secondary">
+                <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Cuando era chico II&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver índice</span></a></small>
+              </div>
+              <div class="btn-group pull-right">
+                <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
+                <button type="button" title="Me gusta" class="btn btn-main ml-3"><i class="fas fa-thumbs-up"></i></button>
+                <button type="button" title="Leer" class="btn btn-main btn ml-3"><i class="fas fa-file-alt"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 mb-3">
+            <div id="jumboInicioThree"  class="jumbotron">
+              <div class="text-center h2">El hombre de la bolsa
+                <hr class="mt-4 mb-0 bg-secondary">
+                <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Cuentos de terror para Franco VII&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver índice</span></a></small>
+              </div>
+              <div class="btn-group pull-right">
+                <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
+                <button type="button" title="Me gusta" class="btn btn-main ml-3"><i class="fas fa-thumbs-up"></i></button>
+                <button type="button" title="Leer" class="btn btn-main btn ml-3"><i class="fas fa-file-alt"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 mb-3">
+            <div id="jumboInicioOne"  class="jumbotron">
+              <div class="text-center h2">Crispín Soto y El Diablo
+                <hr class="mt-4 mb-0 bg-secondary">
+                <small class="d-block text-left"><a class="link-tipo" href="#">Novela</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Infanto-Juvenil&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver todas</span></a></small>
+              </div>
+              <div class="btn-group pull-right">
+                <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
+                <button type="button" title="Me gusta" class="btn btn-main ml-3"><i class="fas fa-thumbs-up"></i></button>
+                <button type="button" title="Leer" class="btn btn-main btn ml-3"><i class="fas fa-file-alt"></i></button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-sm-12 col-lg-8 offset-lg-2 mt-4">
-        <div id="jumboInicioFive"  class="jumbotron">
-          <h1 class="p-3 text-center">Mensajes del Más Allá
-            <hr class="mt-4 mb-0 bg-secondary">
-            <small class="d-block text-left"><a class="link-tipo" href="#">Novela</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Infanto-Juvenil&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver todas</span></a></small>
-            <button title="Comprar" class="btn btn-main pull-right ml-3"><i class="fas fa-shopping-cart"></i></button>
-            <button title="Me gusta" class="btn btn-main pull-right ml-3"><i class="fas fa-thumbs-up"></i></button>
-            <button title="Leer" class="btn btn-main btn pull-right ml-3"><i class="fas fa-file-alt"></i></button>
-          </h1>
-        </div>
-      </div>
-      <div class="col-sm-12 col-lg-8 offset-lg-2 mt-4">
-        <div id="jumboInicioTwo"  class="jumbotron">
-          <h1 class="p-3 text-center">Perdidos en la noche
-            <hr class="mt-4 mb-0 bg-secondary">
-            <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Cuando era chico II&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver índice</span></a></small>
-            <button title="Comprar" class="btn btn-main pull-right ml-3"><i class="fas fa-shopping-cart"></i></button>
-            <button title="Me gusta" class="btn btn-main pull-right ml-3"><i class="fas fa-thumbs-up"></i></button>
-            <button title="Leer" class="btn btn-main btn pull-right ml-3"><i class="fas fa-file-alt"></i></button>
-          </h1>
-        </div>
-      </div>
-      <div class="col-sm-12 col-lg-8 offset-lg-2 mt-4">
-        <div id="jumboInicioThree"  class="jumbotron">
-          <h1 class="p-3 text-center">El hombre (o viejo) de la bolsa
-            <hr class="mt-4 mb-0 bg-secondary">
-            <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Cuentos de terror para Franco VII&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver índice</span></a></small>
-            <button title="Comprar" class="btn btn-main pull-right ml-3"><i class="fas fa-shopping-cart"></i></button>
-            <button title="Me gusta" class="btn btn-main pull-right ml-3"><i class="fas fa-thumbs-up"></i></button>
-            <button title="Leer" class="btn btn-main btn pull-right ml-3"><i class="fas fa-file-alt"></i></button>
-          </h1>
-        </div>
-      </div>
-      <div class="col-sm-12 col-lg-8 offset-lg-2 mt-4">
-        <div id="jumboInicioOne"  class="jumbotron">
-          <h1 class="p-3 text-center">Crispín Soto y El Diablo
-            <hr class="mt-4 mb-0 bg-secondary">
-            <small class="d-block text-left"><a class="link-tipo" href="#">Novela</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Infanto-Juvenil&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver todas</span></a></small>
-            <button title="Comprar" class="btn btn-main pull-right ml-3"><i class="fas fa-shopping-cart"></i></button>
-            <button title="Me gusta" class="btn btn-main pull-right ml-3"><i class="fas fa-thumbs-up"></i></button>
-            <button title="Leer" class="btn btn-main btn pull-right ml-3"><i class="fas fa-file-alt"></i></button>
-          </h1>
-        </div>
-      </div>
+      <!-- End Banners Frontpage -->
 
+      <!-- Aside Frontpage -->
+      <div class="col-sm-12 col-lg-5 p-3">
+        <div class="tz-gallery">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/bridge.jpg">
+                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/bridge.jpg" alt="Bridge">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/park.jpg">
+                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/park.jpg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/tunnel.jpg">
+                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/tunnel.jpg" alt="Tunnel">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-8">
+                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/traffic.jpg">
+                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/traffic.jpg" alt="Traffic">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/coast.jpg">
+                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/coast.jpg" alt="Coast">
+                    </a>
+                </div> 
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templatesimages/rails.jpg">
+                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/rails.jpg" alt="Rails">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-8">
+                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/traffic.jpg">
+                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/traffic.jpg" alt="Traffic">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/bridge.jpg">
+                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/bridge.jpg" alt="Bridge">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/park.jpg">
+                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/park.jpg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/tunnel.jpg">
+                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/tunnel.jpg" alt="Tunnel">
+                    </a>
+                </div>
+                <div class="col-sm-8 offset-sm-2 p-3">
+                  <button class="btn btn-block btn-outline-main">Ver galería</button>
+                </div>
+            </div>
+
+        </div>
+      </div>
+      <!-- End Aside Frontpage -->
 
 		</div><!-- .row end -->
 

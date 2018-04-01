@@ -3,13 +3,18 @@
 		.row {
 			.jumbotron {
 				background-color:$dark;
+				padding: 1rem;
 				background-position: center center;
 				background-size: 100% auto;
 				background-repeat: no-repeat;
-				h1 {
+				height:100%;
+				div.h2 {
+					margin: 0;
 					font-family: 'Cinzel';
-					background-color: rgba($dark, 0.9);
+					cursor: default;
+					background-color: rgba($dark, 0.8);
 					letter-spacing: 3px;
+					padding: 1rem;
 					a {
 						font-size: 0.9rem;
 						color: $white;
@@ -66,3 +71,126 @@
 		}
 	}
 }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	#inicio-page-wrapper {
+		.container-full {
+			.row {
+				.jumbotron {
+					div.h2 {
+						&:hover {
+						}
+						a {
+							span {
+							}
+							&:hover {
+								span {
+								}
+							}
+						}
+						a.link-tipo {
+							&:hover {
+							}
+						}
+						small {
+						}
+						button {
+						}
+					}
+				}
+				#jumboInicioOne.jumbotron {
+				}
+				#jumboInicioTwo.jumbotron {
+				}
+				#jumboInicioThree.jumbotron {
+				}
+				#jumboInicioFour.jumbotron {
+				}
+				#jumboInicioFive.jumbotron {
+				}
+			}
+		}
+	}
+}
+	// Medium devices (tablets, 768px and up)
+	@media (min-width: 768px) {
+		#inicio-page-wrapper {
+			.container-full {
+				.row {
+					.jumbotron {
+						div.h2 {
+							&:hover {
+							}
+							a {
+								span {
+								}
+								&:hover {
+									span {
+									}
+								}
+							}
+							a.link-tipo {
+								&:hover {
+								}
+							}
+							small {
+							}
+							button {
+							}
+						}
+					}
+					#jumboInicioOne.jumbotron {
+					}
+					#jumboInicioTwo.jumbotron {
+					}
+					#jumboInicioThree.jumbotron {
+					}
+					#jumboInicioFour.jumbotron {
+					}
+					#jumboInicioFive.jumbotron {
+					}
+				}
+			}
+		}
+	}
+		// Large devices (desktops, 992px and up)
+		@media (min-width: 992px) {
+			#inicio-page-wrapper {
+				.container-full {
+					.row {
+						.jumbotron {
+							div.h2 {
+								&:hover {
+								}
+								a {
+									span {
+									}
+									&:hover {
+										span {
+										}
+									}
+								}
+								a.link-tipo {
+									&:hover {
+									}
+								}
+								small {
+								}
+								button {
+								}
+							}
+						}
+						#jumboInicioOne.jumbotron {
+						}
+						#jumboInicioTwo.jumbotron {
+						}
+						#jumboInicioThree.jumbotron {
+						}
+						#jumboInicioFour.jumbotron {
+						}
+						#jumboInicioFive.jumbotron {
+						}
+					}
+				}
+			}
+		}

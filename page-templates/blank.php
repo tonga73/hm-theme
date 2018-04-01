@@ -23,11 +23,12 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-<?php while ( have_posts() ) : the_post(); ?>
+<?php
+   while ( have_posts() ) : the_post();
+        get_template_part( 'loop-templates/content', 'empty' );
+    endwhile;
+?>
 
-	<?php get_template_part( 'loop-templates/content', 'blank' ); ?>
-
-<?php endwhile; // end of the loop. ?>
 <?php wp_footer(); ?>
 </body>
 </html>
