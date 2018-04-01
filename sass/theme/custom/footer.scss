@@ -1,0 +1,44 @@
+#wrapper-footer-full {
+	background-color: $cc-secondary;
+	.container-full {
+		.row {
+			.footer-widget {
+				border:1rem solid transparent;
+				padding: 0rem 1rem;
+				a {
+					color: $cream;
+				}
+				h3.widget-title {}
+				.calendar_wrap {
+					table#wp-calendar {
+						margin:auto;
+						caption {
+							font-size: 1.5rem;
+							color: $white;
+							background-color: $cc-dgreen;
+							text-align: center;
+						}
+						tbody {
+							tr {
+								td {
+									a {
+										color: $cc-green;
+										background-color: $cream;
+										border-radius: 50px;
+										padding: 1px 3px;
+										text-decoration: none;
+										font-weight:bold;
+										&:hover {
+											background-color: $cc-dgreen;
+											color: $white;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

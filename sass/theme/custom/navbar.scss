@@ -7,14 +7,17 @@
 				text-align:center;
 				margin-left: 5px;
 				&:hover {
-					background-color: $cc-dgreen;
+					a {
+						color: $cc-green;
+						
+					}
 				}
-				a.nav-link {
-					
-				}
+				a.nav-link {}
 			}
 			li.menu-item.active {
-				background-color: $cc-dgreen !important;
+				a {
+					color: $cc-dgreen !important;
+				}
 			}
 		}
 	}

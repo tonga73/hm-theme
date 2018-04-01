@@ -10,7 +10,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Barlow:100,100i,300,300i,500,500i,700,700i,900,900i|Bellefair|Cinzel+Decorative:400|Cinzel:400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Barlow:100,300,500,700,900|Bellefair|Cinzel:400,700,900");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8156,6 +8156,22 @@ a.skip-link {
   .btn-outline-main:hover {
     background-color: #b0532c !important;
     color: #fffeec !important; }
+    .btn-outline-main:hover a {
+      color: #fffeec !important; }
+
+.btn-dgreen {
+  background-color: #4e574e !important;
+  color: #fffeec !important; }
+  .btn-dgreen:hover {
+    background-color: #727f72 !important; }
+
+.btn-outline-dgreen {
+  background-color: transparent !important;
+  color: #fffeec !important;
+  border: 1px solid #4e574e; }
+  .btn-outline-dgreen:hover {
+    background-color: #4e574e !important;
+    color: #fffeec !important; }
 
 .btn-green-dgreen {
   background-color: #587d45;
@@ -8173,7 +8189,32 @@ a.skip-link {
 
 /* Navbar */
 .bg-navbar {
-  background-color: #201f1d; }
+  background-color: #4a3030; }
+
+#wrapper-footer-full {
+  background-color: #7d5545; }
+  #wrapper-footer-full .container-full .row .footer-widget {
+    border: 1rem solid transparent;
+    padding: 0rem 1rem; }
+    #wrapper-footer-full .container-full .row .footer-widget a {
+      color: #fffeec; }
+    #wrapper-footer-full .container-full .row .footer-widget .calendar_wrap table#wp-calendar {
+      margin: auto; }
+      #wrapper-footer-full .container-full .row .footer-widget .calendar_wrap table#wp-calendar caption {
+        font-size: 1.5rem;
+        color: #fff;
+        background-color: #4e574e;
+        text-align: center; }
+      #wrapper-footer-full .container-full .row .footer-widget .calendar_wrap table#wp-calendar tbody tr td a {
+        color: #587d45;
+        background-color: #fffeec;
+        border-radius: 50px;
+        padding: 1px 3px;
+        text-decoration: none;
+        font-weight: bold; }
+        #wrapper-footer-full .container-full .row .footer-widget .calendar_wrap table#wp-calendar tbody tr td a:hover {
+          background-color: #4e574e;
+          color: #fff; }
 
 .navbar-brand {
   font-size: 3rem;
@@ -8197,15 +8238,52 @@ a.skip-link {
   .navbar-brand {
     font-size: 2.5rem; } }
 
+.logo {
+  font-family: 'Cinzel', serif !important;
+  letter-spacing: 5px;
+  font-weight: bold;
+  color: #b0532c !important; }
+  .logo a {
+    color: #b0532c !important;
+    text-decoration: none; }
+
 .wrapper-navbar nav.navbar {
-  background-color: #201f1d; }
+  background-color: #4a3030; }
   .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item {
     text-align: center;
     margin-left: 5px; }
-    .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item:hover {
-      background-color: #4e574e; }
-  .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item.active {
-    background-color: #4e574e !important; }
+    .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item:hover a {
+      color: #587d45; }
+  .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item.active a {
+    color: #4e574e !important; }
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff; }
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff; }
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #fff; }
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #fff; }
 
 #inicio-page-wrapper .container-full .row #buttonCard a {
   display: block; }
@@ -8232,6 +8310,74 @@ a.skip-link {
       z-index: 10000; }
     #inicio-page-wrapper .container-full .row #buttonCard a:hover img {
       opacity: 0.6; }
+
+#inicio-page-wrapper .container-full .row #buttonCard a.section-title {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: ease 0s ease-out 1s,opacity 1s ease-out;
+  transition: ease 0s ease-out 1s,opacity 1s ease-out; }
+  #inicio-page-wrapper .container-full .row #buttonCard a.section-title h4 {
+    padding: 5px;
+    letter-spacing: 3px; }
+  #inicio-page-wrapper .container-full .row #buttonCard a.section-title:hover {
+    background-color: #587d45; }
+    #inicio-page-wrapper .container-full .row #buttonCard a.section-title:hover .arrow-up {
+      border-bottom: 10px solid #b0532c; }
+
+#inicio-page-wrapper .container-full .row .jumbotron {
+  background-color: #201f1d;
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+  #inicio-page-wrapper .container-full .row .jumbotron h1 {
+    font-family: 'Cinzel';
+    background-color: rgba(32, 31, 29, 0.9);
+    letter-spacing: 3px; }
+    #inicio-page-wrapper .container-full .row .jumbotron h1 a {
+      font-size: 0.9rem;
+      color: #fff;
+      text-decoration: none; }
+      #inicio-page-wrapper .container-full .row .jumbotron h1 a span {
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: visibility 0s ease-out 0.3s,opacity 0.3s ease-out;
+        transition: visibility 0s ease-out 0.3s,opacity 0.3s ease-out; }
+      #inicio-page-wrapper .container-full .row .jumbotron h1 a:hover span {
+        visibility: visible;
+        opacity: 1;
+        background-color: #587d45;
+        padding: 0px 7px;
+        border-radius: 15px; }
+    #inicio-page-wrapper .container-full .row .jumbotron h1 a.link-tipo {
+      border: 1px solid #fff;
+      padding: 3px 5px;
+      border-radius: 15px;
+      text-transform: uppercase; }
+      #inicio-page-wrapper .container-full .row .jumbotron h1 a.link-tipo:hover {
+        background-color: #fff;
+        color: #201f1d; }
+    #inicio-page-wrapper .container-full .row .jumbotron h1 small {
+      font-family: 'Barlow'; }
+    #inicio-page-wrapper .container-full .row .jumbotron h1 button {
+      font-family: 'Barlow';
+      margin: auto; }
+
+#inicio-page-wrapper .container-full .row #jumboInicioOne.jumbotron {
+  background-image: url("http://devhm.com/wp-content/uploads/2018/03/crispin-2500x590.jpg"); }
+
+#inicio-page-wrapper .container-full .row #jumboInicioTwo.jumbotron {
+  background-image: url("http://devhm.com/wp-content/uploads/2018/03/perdidos-2500x590.jpg"); }
+
+#inicio-page-wrapper .container-full .row #jumboInicioThree.jumbotron {
+  background-image: url("http://devhm.com/wp-content/uploads/2018/03/viejo-bolsa-2500x590.jpg"); }
+
+#inicio-page-wrapper .container-full .row #jumboInicioFour.jumbotron {
+  background-image: url("http://devhm.com/wp-content/uploads/2018/03/criaturas-2500x590.jpg"); }
+
+#inicio-page-wrapper .container-full .row #jumboInicioFive.jumbotron {
+  background-image: url("http://devhm.com/wp-content/uploads/2018/03/mensajes-2500x590.jpg"); }
 
 #narrativa-wrapper .container-fluid .jumbotron h2 {
   text-align: left;

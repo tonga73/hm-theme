@@ -15,9 +15,9 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 	<div class="wrapper" id="wrapper-footer-full">
 
-		<div class="<?php echo esc_attr( $container ); ?>" id="footer-full-content" tabindex="-1">
+		<div class="container-full" id="footer-full-content" tabindex="-1">
 
-			<div class="row">
+			<div class="row no-gutters">
 
 				<?php dynamic_sidebar( 'footerfull' ); ?>
 

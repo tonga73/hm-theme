@@ -1,0 +1,68 @@
+#inicio-page-wrapper {
+	.container-full {
+		.row {
+			.jumbotron {
+				background-color:$dark;
+				background-position: center center;
+				background-size: 100% auto;
+				background-repeat: no-repeat;
+				h1 {
+					font-family: 'Cinzel';
+					background-color: rgba($dark, 0.9);
+					letter-spacing: 3px;
+					a {
+						font-size: 0.9rem;
+						color: $white;
+						text-decoration:none;
+						span {
+							visibility:hidden;
+							opacity:0;
+							transition:visibility 0s ease-out 0.3s,opacity 0.3s ease-out;
+						}
+						&:hover {
+							span {
+								visibility:visible;
+								opacity:1;
+								background-color: $cc-green;
+								padding: 0px 7px;
+								border-radius: 15px;
+							}
+						}
+					}
+					a.link-tipo {
+						border: 1px solid $white;
+						padding: 3px 5px;
+						border-radius: 15px;
+						text-transform: uppercase;
+						&:hover {
+							background-color: $white;
+							color:$dark;
+						}
+					}
+					small {
+						font-family: 'Barlow';
+					}
+					button {
+						font-family: 'Barlow';
+						margin: auto;
+					}
+				}
+			}
+			#jumboInicioOne.jumbotron {
+				background-image: url('http://devhm.com/wp-content/uploads/2018/03/crispin-2500x590.jpg');
+			}
+			#jumboInicioTwo.jumbotron {
+				background-image: url('http://devhm.com/wp-content/uploads/2018/03/perdidos-2500x590.jpg');
+			}
+			#jumboInicioThree.jumbotron {
+				background-image: url('http://devhm.com/wp-content/uploads/2018/03/viejo-bolsa-2500x590.jpg');
+			}
+			#jumboInicioFour.jumbotron {
+				background-image: url('http://devhm.com/wp-content/uploads/2018/03/criaturas-2500x590.jpg');
+			}
+			#jumboInicioFive.jumbotron {
+				background-image: url('http://devhm.com/wp-content/uploads/2018/03/mensajes-2500x590.jpg');
+			}
+		}
+	}
+}

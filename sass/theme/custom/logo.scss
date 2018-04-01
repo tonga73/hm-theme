@@ -23,3 +23,13 @@
     	font-size: 2.5rem;
     }
 }
+.logo {
+    font-family: 'Cinzel', serif !important;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: $cc-main !important;
+    a {
+        color: $cc-main !important;
+        text-decoration: none;
+    }
+}

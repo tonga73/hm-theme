@@ -72,6 +72,26 @@
 	&:hover {
 		background-color: $cc-main !important;
 		color: $cream !important;
+		a {
+			color: $cream !important;
+		}
+	}
+}
+// Dark Green
+.btn-dgreen {
+	background-color: $cc-dgreen !important;
+	color: $cream !important;
+	&:hover {
+		background-color: lighten($cc-dgreen, 15%) !important;
+	}
+}
+.btn-outline-dgreen {
+	background-color: transparent !important;
+	color: $cream !important;
+	border: 1px solid $cc-dgreen;
+	&:hover {
+		background-color: $cc-dgreen !important;
+		color: $cream !important;
 	}
 }
 // Green with hover DGreen
