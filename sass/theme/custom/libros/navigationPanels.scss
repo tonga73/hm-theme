@@ -1,0 +1,49 @@
+#libros-page-wrapper {
+	nav {
+		.nav.nav-tabs {
+			border: none;
+			a.nav-item.nav-link.active {
+				background-color: $cc-secondary;
+				color: $gray;
+				&:hover {
+					background-color: $cc-secondary;
+					cursor: default;
+				}
+			}
+			a.nav-item.nav-link {
+				border: none;
+				color: $white;
+				margin: 0;
+				padding: 1rem 1rem 0.5rem 1rem;
+				border-radius: 0;
+				letter-spacing: 3px;
+				font-weight: 300;
+				&:hover {
+					background-color: $cc-green;
+				}
+			}
+		}
+	}
+	.tab-content {
+		.tab-pane {
+			ul.nav.nav-tabs {
+				background-color: $cc-secondary;
+				border-color: $cc-main;
+				li.nav-item {
+					border:none;
+					a.nav-link.active {
+						border-color: $cc-main $cc-main $dark $cc-main;
+						color: $gray;
+						cursor: default;
+					}
+					a.nav-link {
+						color: $cream;
+						&:hover, &:focus {
+							border-color: $cc-main $cc-main $dark $cc-main;
+						}
+					}
+				}
+			}
+		}
+	}
+}

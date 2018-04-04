@@ -49,12 +49,12 @@ get_header();
             <div id="jumboInicioFour"  class="jumbotron">
               <div class="text-center h2">Criaturas celestes
                 <hr class="mt-4 mb-0 bg-secondary">
-                <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Ciencia Ficción&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver todas</span></a></small>
+                <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Ciencia Ficción&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
               </div>
-              <div class="btn-group pull-right">
+              <div class="btn-group mt-3 pull-right">
+                <button type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></button>
+                <button type="button" title="Leer" class="btn btn-ccsecondary btn ml-3"><i class="fas fa-file-alt"></i></button>
                 <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
-                <button type="button" title="Me gusta" class="btn btn-main ml-3"><i class="fas fa-thumbs-up"></i></button>
-                <button type="button" title="Leer" class="btn btn-main btn ml-3"><i class="fas fa-file-alt"></i></button>
               </div>
             </div>
           </div>
@@ -62,12 +62,12 @@ get_header();
             <div id="jumboInicioFive"  class="jumbotron">
               <div class="text-center h2">Mensajes del Más Allá
                 <hr class="mt-4 mb-0 bg-secondary">
-                <small class="d-block text-left"><a class="link-tipo" href="#">Novela</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Infanto-Juvenil&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver todas</span></a></small>
+                <small class="d-block text-left"><a class="link-tipo" href="#">Novela</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Aventuras y Fantasía&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
               </div>
-              <div class="btn-group pull-right">
+              <div class="btn-group mt-3 pull-right">
+                <button type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></button>
+                <button type="button" title="Leer" class="btn btn-ccsecondary btn ml-3"><i class="fas fa-file-alt"></i></button>
                 <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
-                <button type="button" title="Me gusta" class="btn btn-main ml-3"><i class="fas fa-thumbs-up"></i></button>
-                <button type="button" title="Leer" class="btn btn-main btn ml-3"><i class="fas fa-file-alt"></i></button>
               </div>
             </div>
           </div>
@@ -75,41 +75,44 @@ get_header();
             <div id="jumboInicioTwo"  class="jumbotron">
               <div class="text-center h2">Perdidos en la noche
                 <hr class="mt-4 mb-0 bg-secondary">
-                <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Cuando era chico II&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver índice</span></a></small>
+                <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Terror&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
               </div>
-              <div class="btn-group pull-right">
+              <div class="btn-group mt-3 pull-right">
+                <button type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></button>
+                <button type="button" title="Leer" class="btn btn-ccsecondary btn ml-3"><i class="fas fa-file-alt"></i></button>
                 <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
-                <button type="button" title="Me gusta" class="btn btn-main ml-3"><i class="fas fa-thumbs-up"></i></button>
-                <button type="button" title="Leer" class="btn btn-main btn ml-3"><i class="fas fa-file-alt"></i></button>
               </div>
             </div>
           </div>
+
           <div class="col-sm-12 mb-3">
             <div id="jumboInicioThree"  class="jumbotron">
               <div class="text-center h2">El hombre de la bolsa
                 <hr class="mt-4 mb-0 bg-secondary">
-                <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Cuentos de terror para Franco VII&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver índice</span></a></small>
+                <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Terror&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
               </div>
-              <div class="btn-group pull-right">
+              <div class="btn-group mt-3 pull-right">
+                <button type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></button>
+                <button type="button" title="Leer" class="btn btn-ccsecondary btn ml-3"><i class="fas fa-file-alt"></i></button>
                 <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
-                <button type="button" title="Me gusta" class="btn btn-main ml-3"><i class="fas fa-thumbs-up"></i></button>
-                <button type="button" title="Leer" class="btn btn-main btn ml-3"><i class="fas fa-file-alt"></i></button>
               </div>
             </div>
           </div>
+
           <div class="col-sm-12 mb-3">
             <div id="jumboInicioOne"  class="jumbotron">
               <div class="text-center h2">Crispín Soto y El Diablo
                 <hr class="mt-4 mb-0 bg-secondary">
-                <small class="d-block text-left"><a class="link-tipo" href="#">Novela</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Infanto-Juvenil&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver todas</span></a></small>
+                <small class="d-block text-left"><a class="link-tipo" href="#">Novela</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Aventuras y Fantasía&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
               </div>
-              <div class="btn-group pull-right">
+              <div class="btn-group mt-3 pull-right">
+                <button type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></button>
+                <button type="button" title="Leer" class="btn btn-ccsecondary btn ml-3"><i class="fas fa-file-alt"></i></button>
                 <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
-                <button type="button" title="Me gusta" class="btn btn-main ml-3"><i class="fas fa-thumbs-up"></i></button>
-                <button type="button" title="Leer" class="btn btn-main btn ml-3"><i class="fas fa-file-alt"></i></button>
               </div>
             </div>
           </div>
+
         </div>
       </div>
       <!-- End Banners Frontpage -->

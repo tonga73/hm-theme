@@ -1,3 +1,4 @@
+// ROTATE CARDS
    $().ready(function(){
         $('[rel="tooltip"]').tooltip();
 

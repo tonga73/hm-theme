@@ -3927,6 +3927,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	}
 })();
 
+// ROTATE CARDS
    $().ready(function(){
         $('[rel="tooltip"]').tooltip();
 
