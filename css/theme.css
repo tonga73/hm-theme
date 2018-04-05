@@ -11015,6 +11015,12 @@ readers do not read off random characters that represent icons */
 .btn, .wpcf7 input[type=submit] {
   border-radius: 3px; }
 
+.btn-back {
+  background-color: transparent;
+  color: #fffeec; }
+  .btn-back:hover {
+    background-color: transparent; }
+
 .btn-ccprimary {
   background-color: #4a3030 !important;
   color: #fffeec !important; }
@@ -11028,14 +11034,14 @@ readers do not read off random characters that represent icons */
     background-color: #aa7865 !important;
     color: #fffeec; }
 
-.btn-outline-secondary {
+.btn-outline-ccsecondary {
   background-color: transparent !important;
   color: #fffeec !important;
   border: 1px solid #7d5545; }
-  .btn-outline-secondary:hover {
+  .btn-outline-ccsecondary:hover {
     background-color: #7d5545 !important;
     color: #fffeec !important; }
-    .btn-outline-secondary:hover a {
+    .btn-outline-ccsecondary:hover a {
       color: #fffeec !important; }
 
 .btn-main {
@@ -11102,11 +11108,45 @@ readers do not read off random characters that represent icons */
 .bg-navbar {
   background-color: #4a3030; }
 
+#wrapper-footer .container-full .row div a#footer-contacto {
+  color: #7d5545;
+  text-decoration: none;
+  display: block; }
+  #wrapper-footer .container-full .row div a#footer-contacto:hover {
+    background-color: #b0532c;
+    color: #4a3030;
+    font-weight: bold;
+    -webkit-transition: ease 0.765s;
+    transition: ease 0.765s; }
+
+#wrapper-footer .container-full .row div span b {
+  font-weight: bold;
+  opacity: 0.3;
+  display: none; }
+
+#wrapper-footer .container-full .row div ul li a {
+  color: #7d5545; }
+
+#wrapper-footer .container-full .row div ul li a.facebook:hover {
+  color: #3b5998 !important; }
+
+#wrapper-footer .container-full .row div ul li a.instagram:hover {
+  color: #cd486b !important; }
+
+#wrapper-footer .container-full .row div ul li a.twitter:hover {
+  color: #55acee !important; }
+
+#wrapper-footer .container-full .row div ul li a.google:hover {
+  color: #dd4b39 !important; }
+
+#wrapper-footer .container-full .row div ul li a.envelope:hover {
+  color: #fffeec !important; }
+
 #wrapper-footer-full {
   background-color: #7d5545; }
   #wrapper-footer-full .container-full .row .footer-widget {
     border: 1rem solid transparent;
-    padding: 0rem 1rem; }
+    padding: 5rem 0rem; }
     #wrapper-footer-full .container-full .row .footer-widget a {
       color: #fffeec; }
     #wrapper-footer-full .container-full .row .footer-widget .calendar_wrap table#wp-calendar {
@@ -11127,6 +11167,44 @@ readers do not read off random characters that represent icons */
           background-color: #4e574e;
           color: #fff; }
 
+.gallery figure.gallery-item {
+  margin: auto;
+  display: inline-block; }
+  .gallery figure.gallery-item .gallery-icon {
+    padding: 3px; }
+    .gallery figure.gallery-item .gallery-icon a {
+      display: block;
+      position: relative; }
+      .gallery figure.gallery-item .gallery-icon a:hover:after, .gallery figure.gallery-item .gallery-icon a:hover:before {
+        opacity: 1; }
+    .gallery figure.gallery-item .gallery-icon a:before {
+      content: "\f065";
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: none;
+      /*--adjust as necessary--*/
+      color: #fffeec;
+      font-size: 18px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 9000;
+      margin-top: -13px;
+      margin-left: -13px;
+      opacity: 0; }
+    .gallery figure.gallery-item .gallery-icon a:after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      background-color: rgba(125, 85, 69, 0.7);
+      content: '';
+      -webkit-transition: 0.4s;
+      transition: 0.4s; }
+
 ul.none {
   list-style-type: none; }
 
@@ -11143,7 +11221,7 @@ ul.roman {
   padding: 3.5rem; }
 
 @media (max-width: 526px) {
-  .navbar-brand {
+  .navbar-brand.logo {
     font-size: 1.9rem;
     display: block;
     width: 100%;
@@ -11152,7 +11230,7 @@ ul.roman {
     margin: auto; } }
 
 @media (max-width: 1092px) {
-  .navbar-brand {
+  .navbar-brand.logo {
     font-size: 2.5rem; } }
 
 .logo {
@@ -11173,6 +11251,10 @@ ul.roman {
       color: #587d45; }
   .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item.active a {
     color: #4e574e !important; }
+  .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item.btn.btn-outline-main.active {
+    background-color: #b0532c !important; }
+    .wrapper-navbar nav.navbar ul.navbar-nav li.menu-item.btn.btn-outline-main.active a {
+      color: #fffeec !important; }
 
 .arrow-up {
   width: 0;
@@ -11205,6 +11287,9 @@ ul.roman {
 .bellefair {
   font-family: 'Bellefair', serif; }
 
+.barlow {
+  font-family: 'Barlow', sans-serif; }
+
 #inicio-page-wrapper .container-full .row #buttonCard a {
   display: block; }
   #inicio-page-wrapper .container-full .row #buttonCard a span {
@@ -11227,7 +11312,7 @@ ul.roman {
           -ms-flex-pack: center;
               justify-content: center;
       opacity: 1;
-      z-index: 10000; }
+      z-index: 900; }
     #inicio-page-wrapper .container-full .row #buttonCard a:hover img {
       opacity: 0.6; }
 
@@ -11269,20 +11354,11 @@ ul.roman {
         opacity: 0;
         -webkit-transition: visibility 0s ease-out 0.3s,opacity 0.3s ease-out;
         transition: visibility 0s ease-out 0.3s,opacity 0.3s ease-out; }
-      #inicio-page-wrapper .container-full .row .jumbotron div.h2 a:hover span {
-        visibility: visible;
-        opacity: 1;
-        background-color: #587d45;
-        padding: 0px 7px;
-        border-radius: 15px; }
     #inicio-page-wrapper .container-full .row .jumbotron div.h2 a.link-tipo {
       border: 1px solid #fff;
       padding: 3px 5px;
       border-radius: 15px;
       text-transform: uppercase; }
-      #inicio-page-wrapper .container-full .row .jumbotron div.h2 a.link-tipo:hover {
-        background-color: #fff;
-        color: #201f1d; }
     #inicio-page-wrapper .container-full .row .jumbotron div.h2 small {
       font-family: 'Barlow'; }
     #inicio-page-wrapper .container-full .row .jumbotron div.h2 button {
@@ -11304,53 +11380,19 @@ ul.roman {
 #inicio-page-wrapper .container-full .row #jumboInicioFive.jumbotron {
   background-image: url("http://devhm.com/wp-content/uploads/2018/03/mensajes-2500x590.jpg"); }
 
-/* Override bootstrap column paddings */
-.tz-gallery .row > div {
-  padding: 2px; }
-
-.tz-gallery .lightbox img {
-  width: 100%;
-  border-radius: 0;
-  position: relative; }
-
-.tz-gallery .lightbox:before {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -13px;
-  margin-left: -13px;
-  opacity: 0;
-  color: #fff;
-  font-size: 26px;
-  font-family: 'FontAwesome';
-  content: '\f065';
-  pointer-events: none;
-  z-index: 9000;
-  -webkit-transition: 0.4s;
-  transition: 0.4s; }
-
-.tz-gallery .lightbox:after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  background-color: rgba(125, 85, 69, 0.7);
-  content: '';
-  -webkit-transition: 0.4s;
-  transition: 0.4s; }
-
-.tz-gallery .lightbox:hover:after,
-.tz-gallery .lightbox:hover:before {
-  opacity: 1; }
-
-.baguetteBox-button {
-  background-color: transparent !important; }
-
-@media (max-width: 768px) {
-  body {
-    padding: 0; } }
+#frontpage-aside .row .gallery-inicio {
+  max-height: 970px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 #libros-page-wrapper #librosCards .tab-pane .container-fluid #libroCard .row a#libroTitle {
   text-decoration: none;

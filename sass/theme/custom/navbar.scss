@@ -18,6 +18,12 @@
 					color: $cc-dgreen !important;
 				}
 			}
+			li.menu-item.btn.btn-outline-main.active {
+				background-color: $cc-main !important;
+				a {
+					color:$cream !important;
+				}
+			}
 		}
 	}
 }

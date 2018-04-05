@@ -24,25 +24,25 @@
 							opacity:0;
 							transition:visibility 0s ease-out 0.3s,opacity 0.3s ease-out;
 						}
-						&:hover {
-							span {
-								visibility:visible;
-								opacity:1;
-								background-color: $cc-green;
-								padding: 0px 7px;
-								border-radius: 15px;
-							}
-						}
+						// &:hover {
+						// 	span {
+						// 		visibility:visible;
+						// 		opacity:1;
+						// 		background-color: $cc-green;
+						// 		padding: 0px 7px;
+						// 		border-radius: 15px;
+						// 	}
+						// }
 					}
 					a.link-tipo {
 						border: 1px solid $white;
 						padding: 3px 5px;
 						border-radius: 15px;
 						text-transform: uppercase;
-						&:hover {
-							background-color: $white;
-							color:$dark;
-						}
+						// &:hover {
+						// 	background-color: $white;
+						// 	color:$dark;
+						// }
 					}
 					small {
 						font-family: 'Barlow';

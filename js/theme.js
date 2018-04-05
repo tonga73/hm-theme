@@ -3942,3 +3942,8 @@ Object.defineProperty(exports, '__esModule', { value: true });
             $card.addClass('hover');
         }
     }
+
+// GOBACK BUTTON
+function goBack() {
+    window.history.back();
+}

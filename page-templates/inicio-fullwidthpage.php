@@ -43,18 +43,20 @@ get_header();
       <!-- End Main Frontpage Buttons -->
 
       <!-- Banners Frontpage -->
-      <div class="col-sm-12 col-lg-7 p-3">
+      <div class="col-sm-12 col-lg-7 pt-3">
         <div class="row">
           <div class="col-sm-12 mb-3">
             <div id="jumboInicioFour"  class="jumbotron">
               <div class="text-center h2">Criaturas celestes
                 <hr class="mt-4 mb-0 bg-secondary">
-                <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Ciencia Ficción&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
+                <small class="d-block text-left"><a class="link-tipo">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero">Ciencia Ficción&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
               </div>
               <div class="btn-group mt-3 pull-right">
-                <button type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></button>
-                <button type="button" title="Leer" class="btn btn-ccsecondary btn ml-3"><i class="fas fa-file-alt"></i></button>
-                <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
+                <a type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></a>
+                <a href="http://devhm.com/libros/libros-en-categoria-todo/" type="button" title="Leer" class="btn btn-ccsecondary btn ml-3">
+                  <i class="fas fa-file-alt"></i>
+                </a>
+                <a type="button" title="Comprar" class="btn text-muted btn-dark ml-3 disabled"><i class="fas fa-shopping-cart"></i></a>
               </div>
             </div>
           </div>
@@ -62,12 +64,12 @@ get_header();
             <div id="jumboInicioFive"  class="jumbotron">
               <div class="text-center h2">Mensajes del Más Allá
                 <hr class="mt-4 mb-0 bg-secondary">
-                <small class="d-block text-left"><a class="link-tipo" href="#">Novela</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Aventuras y Fantasía&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
+                <small class="d-block text-left"><a class="link-tipo">Novela</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero">Aventuras y Fantasía&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
               </div>
               <div class="btn-group mt-3 pull-right">
-                <button type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></button>
-                <button type="button" title="Leer" class="btn btn-ccsecondary btn ml-3"><i class="fas fa-file-alt"></i></button>
-                <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
+                <a type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></a>
+                <a type="button" title="Leer" class="btn btn-ccsecondary btn ml-3"><i class="fas fa-file-alt"></i></a>
+                <a type="button" title="Comprar" class="btn text-muted btn-dark ml-3 disabled"><i class="fas fa-shopping-cart"></i></a>
               </div>
             </div>
           </div>
@@ -75,12 +77,12 @@ get_header();
             <div id="jumboInicioTwo"  class="jumbotron">
               <div class="text-center h2">Perdidos en la noche
                 <hr class="mt-4 mb-0 bg-secondary">
-                <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Terror&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
+                <small class="d-block text-left"><a class="link-tipo">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero">Terror&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
               </div>
               <div class="btn-group mt-3 pull-right">
-                <button type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></button>
-                <button type="button" title="Leer" class="btn btn-ccsecondary btn ml-3"><i class="fas fa-file-alt"></i></button>
-                <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
+                <a type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></a>
+                <a type="button" title="Leer" class="btn btn-ccsecondary btn ml-3"><i class="fas fa-file-alt"></i></a>
+                <a type="button" title="Comprar" class="btn text-muted btn-dark ml-3 disabled"><i class="fas fa-shopping-cart"></i></a>
               </div>
             </div>
           </div>
@@ -89,12 +91,12 @@ get_header();
             <div id="jumboInicioThree"  class="jumbotron">
               <div class="text-center h2">El hombre de la bolsa
                 <hr class="mt-4 mb-0 bg-secondary">
-                <small class="d-block text-left"><a class="link-tipo" href="#">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Terror&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
+                <small class="d-block text-left"><a class="link-tipo">Cuento</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero">Terror&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
               </div>
               <div class="btn-group mt-3 pull-right">
-                <button type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></button>
-                <button type="button" title="Leer" class="btn btn-ccsecondary btn ml-3"><i class="fas fa-file-alt"></i></button>
-                <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
+                <a type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></a>
+                <a type="button" title="Leer" class="btn btn-ccsecondary btn ml-3"><i class="fas fa-file-alt"></i></a>
+                <a type="button" title="Comprar" class="btn text-muted btn-dark ml-3 disabled"><i class="fas fa-shopping-cart"></i></a>
               </div>
             </div>
           </div>
@@ -103,12 +105,12 @@ get_header();
             <div id="jumboInicioOne"  class="jumbotron">
               <div class="text-center h2">Crispín Soto y El Diablo
                 <hr class="mt-4 mb-0 bg-secondary">
-                <small class="d-block text-left"><a class="link-tipo" href="#">Novela</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero" href="#">Aventuras y Fantasía&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
+                <small class="d-block text-left"><a class="link-tipo">Novela</a>&nbsp;<a>|</a>&nbsp;<a class="link-genero">Aventuras y Fantasía&nbsp;<span class="text-light">&gt;&nbsp;&gt;&nbsp;&gt;&nbsp;ver lista</span></a></small>
               </div>
               <div class="btn-group mt-3 pull-right">
-                <button type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></button>
-                <button type="button" title="Leer" class="btn btn-ccsecondary btn ml-3"><i class="fas fa-file-alt"></i></button>
-                <button type="button" title="Comprar" class="btn btn-main ml-3"><i class="fas fa-shopping-cart"></i></button>
+                <a type="button" title="Me gusta" class="btn btn-green ml-3"><i class="fas fa-thumbs-up"></i></a>
+                <a type="button" title="Leer" class="btn btn-ccsecondary btn ml-3"><i class="fas fa-file-alt"></i></a>
+                <a type="button" title="Comprar" class="btn text-muted btn-dark ml-3 disabled"><i class="fas fa-shopping-cart"></i></a>
               </div>
             </div>
           </div>
@@ -118,65 +120,20 @@ get_header();
       <!-- End Banners Frontpage -->
 
       <!-- Aside Frontpage -->
-      <div class="col-sm-12 col-lg-5 p-3">
-        <div class="tz-gallery">
-            <div class="row">
-                <div class="col-sm-12 col-md-4">
-                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/bridge.jpg">
-                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/bridge.jpg" alt="Bridge">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/park.jpg">
-                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/park.jpg" alt="Park">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/tunnel.jpg">
-                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/tunnel.jpg" alt="Tunnel">
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-8">
-                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/traffic.jpg">
-                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/traffic.jpg" alt="Traffic">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/coast.jpg">
-                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/coast.jpg" alt="Coast">
-                    </a>
-                </div> 
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templatesimages/rails.jpg">
-                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/rails.jpg" alt="Rails">
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-8">
-                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/traffic.jpg">
-                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/traffic.jpg" alt="Traffic">
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/bridge.jpg">
-                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/bridge.jpg" alt="Bridge">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/park.jpg">
-                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/park.jpg" alt="Park">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/tunnel.jpg">
-                        <img src="https://demo.tutorialzine.com/2017/02/freebie-4-bootstrap-gallery-templates/images/tunnel.jpg" alt="Tunnel">
-                    </a>
-                </div>
-                <div class="col-sm-8 offset-sm-2 p-3">
-                  <button class="btn btn-block btn-outline-main">Ver galería</button>
-                </div>
+      <div id="frontpage-aside" class="col-sm-12 col-lg-5 pt-4">
+            <div class="row no-gutters">
+              <div class="col-sm-12 gallery-inicio mx-auto">
+                <?php 
+                $id=235; 
+                $post = get_post($id); 
+                $content = apply_filters('the_content', $post->post_content);
+                 echo $content;  
+                ?>                
+              </div>
+              <div class="col-sm-8 offset-sm-2 p-3">
+                <a href="http://devhm.com/galeria-de-imagenes/" class="btn btn-block btn-outline-main">Ver galería completa</a>
+              </div>
             </div>
-
-        </div>
       </div>
       <!-- End Aside Frontpage -->
 
